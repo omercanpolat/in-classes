@@ -5,15 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inline Internal CSS</title>
+    <style>
+      img {
+        width: 50vw;
+        border: 2px solid red;
+        border-radius: 10px;
+        border-style: groove;
+      }
+      .img-div {
+        text-align: center;
+      }
+
+      P {
+        color: purple;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        font-weight: 400;
+        font-size: 2rem;
+      }
+    </style>
   </head>
   <body>
-    <h1>Using CSS</h1>
-    <p>
+    <!--
+   * Inline CSS, HTML elementlerine style keyword'u ile eklenir.
+   * style kelimesinin ici aslinda CSS alanidir.
+   * Sadece eklenen element icin bir stillendirme gerceklestirir.
+   * Bu sebeple cok pratik bir yontem degildir.
+   * HTML kodlarini kalabaliklastirdigi icin kodun gorunumunu karmasiklastirir.
+-->
+    <h1 style="color: red; text-align: center">Using CSS</h1>
+    <p style="background-color: azure">
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel deleniti
       soluta eveniet explicabo illo perferendis itaque ex sunt ducimus
       praesentium. Quos et illo alias in sint perferendis provident inventore
       dolorem?
     </p>
-    <img src="" alt="" />
+    <div class="img-div">
+      <img
+        src="https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        alt="river"
+      />
+    </div>
   </body>
 </html>

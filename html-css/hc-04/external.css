@@ -1,0 +1,31 @@
+* {
+  background-color: rgb(204, 222, 222);
+}
+/*
+body {
+  background-color: aquamarine;
+}
+*/
+h1 {
+  color: brown;
+}
+
+h1:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+  color: blueviolet;
+}
+
+li:hover {
+  color: blue;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.list {
+  border: 1px solid red;
+}
