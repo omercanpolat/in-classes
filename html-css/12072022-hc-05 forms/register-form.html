@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>REGISTER FORM</h1>
+    <form action="">
+      <div>
+        <label for="firstname">First Name</label>
+        <input
+          class="inputs"
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="Your First Name"
+          required
+        />
+      </div>
+      <div>
+        <label for="lastname">Last Name</label>
+        <input
+          class="inputs"
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="Your Last Name"
+          required
+        />
+      </div>
+      <div>
+        <label for="email">E-mail</label>
+        <input
+          class="inputs"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Your E-Mail"
+          required
+        />
+      </div>
+      <div>
+        <label for="password">Pasword</label>
+        <input
+          class="inputs"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Your Password"
+          required
+        />
+      </div>
+      <div>
+        <label for="dob">Date of Bird</label>
+        <input
+          class="inputs"
+          type="date"
+          name="dob"
+          id="dob"
+          placeholder="Your Birthdate"
+          required
+        />
+      </div>
+      <div>
+        <label for="phone">Phone Number</label>
+        <input
+          class="inputs"
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="Your Phone Number"
+          required
+        />
+      </div>
+      <div class="textarea-div">
+        <label for="address">Address</label>
+        <textarea
+          class="inputs"
+          name="address"
+          id="address"
+          cols="30"
+          rows="10"
+          placeholder="Your Home Address Here"
+        ></textarea>
+      </div>
+      <div>
+        <label for="country">Country</label>
+        <select class="inputs" name="country" id="country">
+          <option value="">Select Country</option>
+          <option value="Turkey">Turkey</option>
+          <option value="Gemany">Germany</option>
+          <option value="USA">USA</option>
+          <option value="France">France</option>
+          <option value="UK">United Kingdom</option>
+        </select>
+      </div>
+      <div>
+        <label for="gender">Gender</label>
+        <div class="gender-div">
+          <input class="radio-check" type="radio" name="gender" id="male" />
+          <label for="male">Male</label>
+          <input class="radio-check"type="radio" name="gender" id="female" checked />
+          <label for="female">Female</label>
+        </div>
+      </div>
+      <div>
+        <label for="language">Language</label>
+        <div class="lang-div">
+          <input class="radio-check"type="checkbox" name="lang" id="turkish" checked />
+          <label for="turkish">Turkish</label>
+          <input type="checkbox" name="lang" id="english" />
+          <label for="english">English</label>
+          <input type="checkbox" name="lang" id="french" />
+          <label for="french">French</label>
+        </div>
+      </div>
+      <div class="btn-container">
+        <input type="submit" value="Save" />
+        <input type="reset" value="Clear" />
+      </div>
+    </form>
+  </body>
+</html>

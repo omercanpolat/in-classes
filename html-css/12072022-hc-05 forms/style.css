@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("https://picsum.photos/id/564/600/400");
+}
+form {
+  background-image: linear-gradient(yellow 0%, red 100%);
+  width: fit-content;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+/*Label inline elementtir. width propwrtisi doğrudan çalışmaz.*/
+label {
+  display: inline-block;
+  width: 100px;
+}
+.lang-div,
+.gender-div {
+  display: inline-block;
+}
+.lang-div,
+.gender-div label {
+  width: auto;
+  margin-right: 10px;
+}
+.inputs {
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+  border: none;
+}
+.radio-check {
+  margin-bottom: 20px;
+}
+.btn-container {
+  text-align: center;
+}
+.btn-container input {
+  font-weight: 400;
+  color: blue;
+  width: 100px;
+  background-color: rgb(179, 208, 196);
+  border-radius: 10px;
+  border: none;
+  padding: 13px;
+}
+.btn-container input:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: antiquewhite;
+  font-weight: 700;
+}
+.textarea-div * {
+  vertical-align: middle;
+}
