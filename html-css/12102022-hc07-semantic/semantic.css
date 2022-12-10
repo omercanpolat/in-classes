@@ -12,14 +12,37 @@ body {
 
 header {
   font-family: "Bowlby One SC", cursive;
+  margin-bottom: 2rem;
   padding: 40px;
   background-color: red;
   font-size: 40px;
   color: white;
   font-weight: 700;
+  letter-spacing: 10px;
 }
 
 nav {
   font-family: "Sorts Mill Goudy", serif;
   background-color: #d67dee;
+  font-size: 20px;
+  padding: 20px;
+  color: aliceblue;
+}
+
+nav a:link {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+nav a:visited {
+  color: blueviolet;
+}
+
+nav a:active {
+  color: red;
 }
