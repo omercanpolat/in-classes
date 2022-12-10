@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  font-family: "Bowlby One SC", cursive;
+  padding: 40px;
+  background-color: red;
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+}
+
+nav {
+  font-family: "Sorts Mill Goudy", serif;
+  background-color: #d67dee;
+}
