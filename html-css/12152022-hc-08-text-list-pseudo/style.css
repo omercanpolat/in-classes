@@ -1,0 +1,10 @@
+html {
+  /*? default font size 16px dir.*/
+  font-size: 20px;
+}
+
+h1 {
+  /*? default font size her zaman 2rem veya 16*2=32px dir.*/
+  color: red;
+  text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.6);
+}

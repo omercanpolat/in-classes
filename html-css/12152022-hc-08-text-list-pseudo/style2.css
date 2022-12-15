@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+}
+
+
+/************ LİSTS *********/
+
+.languages{
+  list-style-type: none;
+  list-style-position: inside;
+  list-style-image: url(/house-solid.svg);
+}
