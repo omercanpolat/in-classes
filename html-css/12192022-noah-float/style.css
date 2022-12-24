@@ -1,4 +1,42 @@
+* {
+  margin: 0;
+}
+
 .img1 {
   width: 50%;
+  border: 2px solid blue;
+  float: left;
+  margin-right: 1rem;
+}
+
+.par1 {
+  border: 2px solid red;
+}
+/** Float özelliğini eski akışına getirmek için clear property'si kullanılabilir*/
+
+.clearfix {
+  clear: both;
+}
+
+.box {
+  float: left;
+  font-size: 2rem;
   border: 2px solid;
+}
+
+.box1 {
+  background-color: #7fffd4;
+  width: 40%;
+}
+.box2 {
+  background-color: #ff7fdd;
+  width: 35%;
+}
+.box3 {
+  background-color: #d6ff7f;
+  width: 15%;
+}
+
+.center {
+  text-align: center;
 }

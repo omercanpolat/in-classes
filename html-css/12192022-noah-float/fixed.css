@@ -1,0 +1,12 @@
+.fixed {
+  background-color: rgb(218, 115, 115);
+  padding: 20px;
+  position: fixed;
+}
+
+.sticky {
+  background-color: aqua;
+  position: sticky;
+  padding: 10px;
+  top: 0px;
+}

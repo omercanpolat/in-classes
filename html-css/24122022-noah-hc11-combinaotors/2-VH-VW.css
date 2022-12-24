@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.div1 {
+  background-color: blue;
+  width: 50%; /*? body'nin %50si */
+  max-width: 600px;
+
+  height: 50%; /*! body'nin default bir yüksekliği olmadığı için %50 değer vererek bir heigth vediğimizde çalışmaz. */
+}
+
+.div2 {
+  background-color: tomato;
+  width: 50%; /*? div1'nin %50si */
+}
+
+/* .div3 {
+  background-color: magenta;
+  width: 50%; /*? div2'nin %50si */
+
+.div3 {
+  background-color: magenta;
+  width: 50vw; /*!vw doğrudan tarayıcının görünebilir uzunluğuna bağlıdır, yani parent'a bağlı değildir. */
+}

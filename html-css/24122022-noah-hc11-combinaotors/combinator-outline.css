@@ -1,0 +1,55 @@
+/*? COMBINATORS*/
+
+* {
+  box-sizing: border-box;
+  margin: 0.5rem;
+}
+
+/** Descendant Selector*/
+/*! box classı içersinide tüm pleri sec*/
+
+.box p {
+  color: red;
+}
+
+/** Childe Selector*/
+/*! parenti .box class olan tüm p'leri seç.*/
+
+.box > p {
+  color: blue;
+}
+
+.box > h1 {
+  color: purple;
+}
+
+/** general Siblings*/
+/*? .box divi kapandıktan sonraki tüm p'leri seçer. NOT: kapanan div ile aynı parenta sahip olan tüm p'leri seçer.*/
+
+.box ~ p {
+  color: green;
+}
+
+/*! .box class kapandıktan sonraki ilk p elementi seçer. */
+
+.box + p {
+  color: fuchsia;
+}
+
+/*? p elementinden sonraki ilk h1 */
+
+p + h1 {
+  font-size: 1rem;
+  margin: 3rem;
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid red;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 3.3rem;
+}
+
+p + h1:hover {
+  outline: 3px dotted purple;
+  outline-offset: 3px;
+}

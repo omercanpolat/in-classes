@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1000px;
+  border: 1px red solid;
+  position: relative;
+}
+
+.box {
+  width: 7rem;
+  height: 7rem;
+}
+
+.box1 {
+  background-color: brown;
+  border: 2px red solid;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+.box2 {
+  background-color: rgb(42, 165, 69);
+  border: 2px red solid;
+  position: absolute;
+  top: 70px;
+}
