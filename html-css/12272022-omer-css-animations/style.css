@@ -1,0 +1,52 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+
+  /* animation-name: square;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+  animation-play-state: running; */
+
+animation: square 4s linear 2s infinite alternate backwards running;
+
+}
+
+@keyframes square {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    background-color: gold;
+    left: 500px;
+    top: 0px;
+  }
+
+  50% {
+    background-color: lime;
+    left: 500px;
+    top: 500px;
+    border-radius: 50%;
+  }
+
+  75% {
+    background-color: dodgerblue;
+    left: 0px;
+    top: 500px;
+  }
+
+  100% {
+    background-color: purple;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+  }
+}
