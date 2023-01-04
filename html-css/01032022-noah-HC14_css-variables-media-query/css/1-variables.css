@@ -28,17 +28,23 @@
   --fs-md: 1rem;
   --fs-sm: 0.8rem;
   --fs-xs: 0.6rem;
+
+  /*? Shadows */
+  --shadow-dark: 0 0 10px rgba(0, 0, 0, 0.4);
+  --shadow-light: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
-  color: var(--orange-dark);
   font-family: var(--ff-prosto);
+  color: var(--orange-dark);
   font-size: var(--fs-3xl);
 }
+
 p {
-  font-family: var(--ff-sevillana);
   font-size: var(--fs-sm);
+  font-family: var(--ff-sevillana);
 }
+
 .dark {
   padding: 3rem;
   background-color: var(--green);
