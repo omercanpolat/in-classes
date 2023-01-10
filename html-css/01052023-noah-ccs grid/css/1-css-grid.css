@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 300px 4rem 400px;
+  grid-template-rows: 50vh 25vh 25vh;
+
+  /*! grid seviyesinde yatay hizalama */
+  justify-content: center;
+
+  /* align-items: flex-end; */
+}
+.content {
+  /*! Grid Container icerisindeki item'lara Flex özelliği kazandirilabilir.
+  /*! Boylece item'larin icerisindeki content'lerin yatay ve dikey hizalamasi yapilabilir. */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: lightblue;
+  border: 1px solid red;
+}
+
+.content7 {
+  overflow: auto;
+}
+.content9 {
+  background-image: url("https://cdn.pixabay.com/photo/2022/12/14/12/29/nature-7655327_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
