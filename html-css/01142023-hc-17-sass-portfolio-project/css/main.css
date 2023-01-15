@@ -102,7 +102,7 @@
   border-bottom: 2px solid #fff;
 }
 .home__name--last {
-  color: red;
+  color: hsl(233, 100%, 50%);
   font-weight: 700;
 }
 
