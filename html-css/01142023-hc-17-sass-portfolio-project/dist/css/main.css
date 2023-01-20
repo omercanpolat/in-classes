@@ -20,7 +20,7 @@
 }
 .about-bgImg-container .about__bio-image h2 {
   font-size: 3rem;
-  color: orange;
+  color: rgb(68, 0, 255);
 }
 .about-bgImg-container .about__bio-image p {
   font-size: 1.2rem;
@@ -36,7 +36,7 @@
   margin: 1rem;
   background-color: #3333ff;
   padding: 1rem;
-  border-bottom: 5px solid orange;
+  border-bottom: 5px solid rgb(68, 0, 255);
 }
 .about .about__job h2,
 .about .about__job h3 {
@@ -78,7 +78,7 @@
   align-items: center;
 }
 .contact .text-secondary {
-  color: orange;
+  color: rgb(68, 0, 255);
 }
 
 .home-bgImg-container {
@@ -133,7 +133,7 @@
 .projects__item {
   width: 100%;
   cursor: pointer;
-  border-bottom: 5px solid orange;
+  border-bottom: 5px solid rgb(68, 0, 255);
   position: relative;
 }
 .projects__item img {
@@ -143,7 +143,7 @@
   content: "";
   width: 100%;
   height: 100%;
-  background-color: orange;
+  background-color: rgb(68, 0, 255);
   position: absolute;
   left: 0;
   opacity: 0;
@@ -158,7 +158,7 @@
   transition: all 1s;
 }
 .link-style a:hover, footer.middle a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
-  color: orange;
+  color: rgb(68, 0, 255);
 }
 
 footer.horizontal {
@@ -220,7 +220,7 @@ footer.middle {
   color: rgb(255, 0, 123);
 }
 .nav__link--active {
-  color: orange;
+  color: rgb(68, 0, 255);
 }
 
 @media screen and (min-width: 0px) {

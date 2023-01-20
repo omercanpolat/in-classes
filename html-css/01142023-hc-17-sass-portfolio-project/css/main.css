@@ -8,7 +8,12 @@
 .about-bgImg-container {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.9),
+      rgba(39, 39, 39, 0.3)
+    ),
+    url("../img/model-1.jpg");
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -38,7 +43,8 @@
   padding: 1rem;
   border-bottom: 5px solid #ff652f;
 }
-.about .about__job h2, .about .about__job h3 {
+.about .about__job h2,
+.about .about__job h3 {
   margin: 0.5rem 0;
 }
 .about .about__job h6 {
@@ -48,7 +54,12 @@
 .contact-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.9),
+      rgba(39, 39, 39, 0.3)
+    ),
+    url("../img/model-1.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -83,7 +94,12 @@
 .home-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.9),
+      rgba(39, 39, 39, 0.3)
+    ),
+    url("../img/model-1.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -109,7 +125,12 @@
 .project-bgImg-container {
   height: 40vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.9),
+      rgba(39, 39, 39, 0.3)
+    ),
+    url("../img/model-1.jpg");
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -152,11 +173,17 @@
   opacity: 0.7;
 }
 
-.link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal a {
+.link-style a,
+footer.middle a,
+footer.vertical .social-icons a,
+footer.horizontal a {
   padding: 0.4rem;
   transition: all 1s;
 }
-.link-style a:hover, footer.middle a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
+.link-style a:hover,
+footer.middle a:hover,
+footer.vertical .social-icons a:hover,
+footer.horizontal a:hover {
   color: #ff652f;
 }
 
@@ -219,7 +246,7 @@ footer.middle {
   color: blue;
 }
 .nav__link--active {
-  color: #ff652f;
+  color: rgb(0, 0, 255, 0.8);
 }
 
 @media screen and (min-width: 0px) {
@@ -309,7 +336,9 @@ a {
   color: #eee;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 400;
 }
 
